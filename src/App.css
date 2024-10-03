@@ -36,3 +36,50 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  background-color: #321378;
+  color: #fff 
+}
+
+.input-box{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.input-box > input {
+  height:50px;
+  width: 50px;
+  border: none;
+  border-radius:2px;
+  outline: none;
+  font-size: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+.timer-button{
+  height: 40px;
+  width: 110px;
+  border: none;
+  border-radius:5px;
+  outline: none;
+  background-color: yellow;
+  color: black;
+  font-family: cursive;
+  margin: 5px;
+  cursor: pointer
+}
+
+.timer-box{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  font-size: 100px;
+  font-family:cursive;
+}
+.h1{
+  font-family: cursive;
+  font-size: 2em;
+}
