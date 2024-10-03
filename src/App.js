@@ -97,6 +97,7 @@ function App() {
 
   return (
     <div className="App">
+      <div className="container">
       <h1 className="h1">Countdown Timer</h1>
       {/* if is Start not true then we will show this container */}
       {!isStart && 
@@ -116,6 +117,7 @@ function App() {
       />
       
       }
+      </div>
     </div>
   );
 }
